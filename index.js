@@ -26,3 +26,8 @@ function makeInt(n) {
  let int = parseInt(n, 10);
  return int.toString();
 }
+
+function preserveDecimal(n) {
+let float = parseFloat(n);
+return float;
+}
